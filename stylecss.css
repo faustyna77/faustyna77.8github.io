@@ -1,0 +1,135 @@
+
+ 
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: #706c6c;
+    transition: 0.3s;
+}
+
+
+
+.btn-zoom
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:50px;
+    left:20%;
+    padding:10px 30px;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #706c6c;
+    font-weight: 100px;
+    color:white;
+    
+}
+
+
+.btn-zoom:hover
+{
+    background-color: aliceblue;
+    font-weight: 200px;
+    color:black;
+    transition: 0.3s;;
+}
+
+
+.btn-zoom:hover~ .red{
+
+    height: 200px;
+    width: 200px;
+
+}
+
+.btn-move
+{
+    background-color: #706c6c;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:50px;
+    left:40%;
+    padding: 10px 30px;
+    border:1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color:white;
+
+}
+.btn-move:hover
+{
+    background-color: aliceblue;
+    transition: 0.3s;
+    color:black;
+    transition: 0.3s;
+}
+.btn-move:hover~ .blue{
+    left:70%;
+}
+.btn-color
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:50px;
+    left:60%;
+    padding: 10px 30px;
+    border:1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-shadow: #706c6c;
+    background-color: #706c6c;
+    color:white;
+}
+.btn-color:hover{
+    background-color: aliceblue;
+    transition: 0.3s;
+    color:black;
+    transition: 0.3s;
+}
+.btn-color:hover ~ .bg{
+    background-color: aqua;
+}
+
+
+.btn-color:hover ~ .square
+{
+    background-color: black;
+}
+.btn-color:hover
+{
+    background-color: aliceblue;
+    font-weight: 200px;
+}
+
+.square
+{
+
+    top:150px;
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 110, 184);
+}
+
+
+.blue
+{
+    left:20%;
+    background-color: blue;
+}
+
+
+.red
+{
+    left:40%;
+    background-color: red;
+}
+
+.green
+
+{
+    left:60%;
+    background-color: green;
+}
